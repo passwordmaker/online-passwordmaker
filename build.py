@@ -64,7 +64,7 @@ bTag = '<pwm-body>'
 beTag = '</pwm-body>'
 data = {'script':'', 'iscript':'', 'body':''}
 try:
-	f = open('main.html', 'r')
+	f = open('index.html', 'r')
 except IOError:
 	print "Can't file the input file."
 	sys.exit(1)
